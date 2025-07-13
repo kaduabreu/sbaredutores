@@ -23,21 +23,11 @@ nav a {
 }
 .logo-centered {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .logo-centered img {
-  height: 220px;
-  margin-bottom: 10px;
-}
-.logo-centered h1 {
-  margin: 0;
-  font-size: 2.5em;
-  color: #a30000;
-}
-.logo-centered p {
-  font-size: 1.2em;
-  color: #444;
+  height: 440px;
 }
 section {
   padding: 2em;
