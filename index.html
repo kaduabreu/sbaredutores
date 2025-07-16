@@ -1,12 +1,63 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=home.html" />
-    <title>Redirecionando...</title>
-  </head>
-  <body>
-    <p>Redirecionando para <a href="home.html">Página Inicial</a>.</p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>SBA Redutores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #a30000;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      animation: fadeZoom 2s ease-in-out;
+      width: 440px;
+      max-width: 90%;
+    }
+    @keyframes fadeZoom {
+      0% { opacity: 0; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    h2 {
+      color: #a30000;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+    }
+    .galeria img {
+      width: 300px;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="SBA Redutores" class="logo"/>
+  </header>
+
+  <h2>Galeria de Fotos - Redutores de Velocidade</h2>
+  <div class="galeria">
+    <img src="foto1.jpg" alt="Redutor 1">
+    <img src="foto2.png" alt="Redutor 2">
+    <img src="foto3.png" alt="Redutor 3">
+    <img src="foto4.png" alt="Redutor 4">
+    <img src="foto5.png" alt="Redutor 5">
+  </div>
+
+</body>
 </html>
