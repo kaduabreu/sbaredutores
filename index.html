@@ -3,22 +3,80 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SBA Redutores</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
   <header>
-    <img src="logo.png" class="logo" alt="SBA Redutores">
+    <nav>
+      <a href="#quemsomos">Quem Somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
   </header>
-  <main>
-    <h2>Galeria de Fotos - Redutores de Velocidade</h2>
-    <div class="galeria">
-      <img src="foto1.jpg" alt="Redutor 1" />
-      <img src="foto2.jpg" alt="Redutor 2" />
-      <img src="foto3.jpg" alt="Redutor 3" />
-      <img src="foto4.jpg" alt="Redutor 4" />
-      <img src="foto5.jpg" alt="Redutor 5" />
+
+  <section class="hero">
+    <div class="logo-centered">
+      <img src="sba_logo_optimized.png" alt="SBA Logo"/>
     </div>
-  </main>
+  </section>
+
+  <section id="quemsomos">
+    <h2>Quem Somos</h2>
+    <p>A SBA Redutores desenvolve projetos de transmissão de potência com foco em desempenho, durabilidade e precisão. Atuamos também com reformas e manutenção em redutores industriais.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li><i class="fas fa-cogs"></i> Fabricação sob medida de redutores industriais</li>
+      <li><i class="fas fa-tools"></i> Reformas e retrofits de redutores</li>
+      <li><i class="fas fa-project-diagram"></i> Projetos especiais e personalizados</li>
+      <li><i class="fas fa-wrench"></i> Assistência técnica e manutenção em campo</li>
+    </ul>
+  </section>
+
+  <section id="diferenciais">
+    <h2>Por Que Escolher a SBA Redutores?</h2>
+    <ul>
+      <li>Equipe técnica altamente qualificada e com ampla experiência</li>
+      <li>Atendimento ágil e personalizado</li>
+      <li>Qualidade garantida em cada entrega</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Equipamentos</h2>
+    <div class="carousel">
+      <img src="foto1.jpg" alt="Equipamento 1" />
+      <img src="foto2.jpg" alt="Equipamento 2" />
+      <img src="foto3.jpg" alt="Equipamento 3" />
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p><i class="fas fa-phone"></i> (16) 99639-2226</p>
+    <p><i class="fas fa-envelope"></i> contato@sbaredutores.com.br</p>
+    <form action="https://formspree.io/f/xqalzzbj" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required/>
+      <input type="email" name="email" placeholder="Seu e-mail" required/>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <a href="https://wa.me/5516996392226" class="whatsapp-float" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" style="width:20px; vertical-align:middle; margin-right:8px;">
+    Fale conosco via WhatsApp
+  </a>
+
+  <footer>
+    <p>&copy; 2025 SBA Redutores - Todos os direitos reservados</p>
+  </footer>
 </body>
 </html>
